@@ -83,12 +83,6 @@ services:
       - NODE_ENV=production
       - DATA_DIR=/app/data
       - DOWNLOAD_DIR=/app/downloads
-      # 可选：为自定义音源单独设置出口代理
-      # - USER_API_PROXY=http://your-proxy:port
-      # 可选：通用代理（仅在必要时设置）
-      # - HTTP_PROXY=http://your-proxy:port
-      # - HTTPS_PROXY=http://your-proxy:port
-      # - NO_PROXY=127.0.0.1,localhost,musicsync
     volumes:
       - musicsync_data:/app/data
       - musicsync_downloads:/app/downloads
