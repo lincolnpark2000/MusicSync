@@ -1,3 +1,4 @@
+version: "3.8"
 services:
   musicsync:
     image: lincolnpark2000/musicsync:latest

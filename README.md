@@ -69,6 +69,7 @@ mv docker-compose.example.yml docker-compose.yml
 或者直接复制以下内容保存为 `docker-compose.yml`：
 
 ```yaml
+version: "3.8"
 services:
   musicsync:
     image: lincolnpark2000/musicsync:latest
@@ -125,7 +126,7 @@ docker compose up -d
 
 ### 推荐音源格式
 
-兼容 [洛雪音乐自定义源](https://github.com/lyswhut/lx-music-desktop/blob/master/doc/custom-api.md) 协议，社区现有的 LX Music 源可直接使用。
+兼容 [洛雪音乐自定义源](https://github.com/pdone/lx-music-source) 协议，社区现有的 LX Music 源可直接使用。
 
 ---
 
