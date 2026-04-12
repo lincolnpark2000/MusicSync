@@ -12,6 +12,7 @@ services:
       - NODE_ENV=production
       - DATA_DIR=/app/data
       - DOWNLOAD_DIR=/app/downloads
+      - CACHE_DIR=/app/cache
 
       # 可选：为自定义音源单独设置出口代理
       # - USER_API_PROXY=http://your-proxy:port
@@ -22,7 +23,9 @@ services:
     volumes:
       - musicsync_data:/app/data
       - musicsync_downloads:/app/downloads
+      - musicsync_cache:/app/cache
 
 volumes:
   musicsync_data:
   musicsync_downloads:
+  musicsync_cache:
