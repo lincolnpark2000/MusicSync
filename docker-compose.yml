@@ -24,7 +24,8 @@ services:
       - musicsync_data:/app/data
       - musicsync_downloads:/app/downloads
       - musicsync_cache:/app/cache
-
+      - musicsync_music1:/app/local_music1
+      - musicsync_music2:/app/local_music2
 volumes:
   musicsync_data:
   musicsync_downloads:
