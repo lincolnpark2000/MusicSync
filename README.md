@@ -120,7 +120,7 @@ MusicSync 是一个以 Docker 部署为主的自托管音乐服务。它既可�
       <sub><b>歌单浏览</b></sub>
     </td>
     <td width="25%" align="center" valign="top">
-      <img src="./img/锁屏界面.PNG" height="320" alt="锁屏界面"><br>
+      <img src="./img/锁屏界面.png" height="320" alt="锁屏界面"><br>
       <sub><b>锁屏界面</b></sub>
     </td>
     <td width="25%" align="center" valign="top">
